@@ -5251,6 +5251,11 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.yarnpkg.com/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz#1b0ab3bd553b2a0d6399d29c0e3ea0b252078327"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
+fuzzysort@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/fuzzysort/-/fuzzysort-1.1.4.tgz#a0510206ed44532cbb52cf797bf5a3cb12acd4ba"
+  integrity sha512-JzK/lHjVZ6joAg3OnCjylwYXYVjRiwTY6Yb25LvfpJHK8bjisfnZJ5bY8aVWwTwCXgxPNgLAtmHL+Hs5q1ddLQ==
+
 gauge@~2.7.3:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/gauge/-/gauge-2.7.4.tgz#2c03405c7538c39d7eb37b317022e325fb018bf7"
@@ -5271,6 +5276,23 @@ gaze@^1.0.0:
   integrity sha512-BRdNm8hbWzFzWHERTrejLqwHDfS4GibPoq5wjTPIoJHoBtKGPg3xAFfxmM+9ztbXelxcf2hwQcaz1PtmFeue8g==
   dependencies:
     globule "^1.0.0"
+
+genshin-db@^1.12.4:
+  version "1.12.4"
+  resolved "https://registry.yarnpkg.com/genshin-db/-/genshin-db-1.12.4.tgz#99fbcdc2f67f83f02cd427bb9420104e0e46476c"
+  integrity sha512-kXU86qd1WrH7P+7snlQzo6QLNnqRkuVHq6H1vGWKzdFazUXDO78zZsXHKvZt5S7fnzFiWCkTLfmnBb8i9Ou9bw==
+  dependencies:
+    fuzzysort "^1.1.4"
+
+genshin-impact-api@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/genshin-impact-api/-/genshin-impact-api-1.0.8.tgz#a180fe79e3ebe33cf9f1cc0b6ecc5d174f998517"
+  integrity sha512-sJex7sORb3k1G1m3O9F5qFe9HAj6mvMqLSf+6GFAxEfyrto/F0fZO/C41dwmzlJW82Huw8rP3GaVav64R8U0PQ==
+
+genshin-impact@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/genshin-impact/-/genshin-impact-1.0.5.tgz#3b323a48628f6848aafb84a8109206cb5ae43320"
+  integrity sha512-hAXHt/pvN5vnCC8gTLkdpPjhSp4PXCiodKCSUEQZPNR2RxnghEziDBoYEiDXu7smFXodTN8spzAUyHZ28K8YwQ==
 
 gensync@^1.0.0-beta.1:
   version "1.0.0-beta.2"
