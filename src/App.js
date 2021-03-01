@@ -23,7 +23,7 @@ function App() {
   };
 
   const [movie, setMovie] = useState([]);
-  const [usersChoice, setUsersChoice] = useState(apiRequests.popularMovies); // Load site with popular movies data
+  const [usersChoice, setUsersChoice] = useState(apiRequests.popularMovies); // On Initial Load site with popular movies data
 
   // Functions - Category Buttons
   function Trending() {
@@ -65,9 +65,9 @@ function App() {
   // One Function for all category buttons -
   function Category(e) {
     const target = e.target.getAttribute("category");
-    const request = `apiRequests.${target}`;
-    setUsersChoice({ request });
-    console.log(request);
+    const categoryRequest = `apiRequests.${target}`;
+    setUsersChoice(categoryRequest);
+    console.log(categoryRequest);
     console.log(usersChoice);
   }
 
@@ -83,7 +83,7 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={Category} category="trending">
+      <button onClick={Trending} category="trending">
         Trending
       </button>
       <button onClick={PopularMovies}>Popular Movies</button>
